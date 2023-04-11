@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ body{
+    background-color: hsl(212, 45%, 89%);
+ }
+
+ .flexContainer{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+ }
+ .codeQrContainer{
+    width: 20%;
+    background-color: white;
+    border-radius: 20px;
+ }
+
+ .qrCode{
+    width: 100%;
+    padding: 15px;
+    padding-bottom: 10px;
+ }
+
+ .bigParagraph{
+    font-size: 15px;
+    font-family: "outfit", "sans serif";
+    font-weight: 700;
+    color:hsl(218, 44%, 22%) ;
+    text-align: center;
+    padding: 10px 15px;
+ }
+
+ .littleParagraph{
+    font-size: 15px;
+    font-family: "outfit", "sans serif";
+    font-size: 400;
+    color:hsl(220, 15%, 55%) ;
+    text-align: center;
+    padding: 10px 15px;
+    padding-bottom: 25px;
+ }
+
+ footer{
+   position: fixed;
+   bottom: 0;
+   background-color: hsl(212, 45%, 89%);
+   
+ }
+
+ .attribution{
+   border: 1px solid;
+   padding: 5px;
+
+ }
+
+ @media screen and (max-width:375px) {
+   .codeQrContainer{
+      width: 80%;
+   
+ }
+}
+
