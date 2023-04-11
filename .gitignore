@@ -14,5 +14,8 @@
 # Avoid your project being littered with annoying .DS_Store files!
 .DS_Store
 .prettierignore
+
 guia_index.html
-/design
+style-guide.md
+
+design
